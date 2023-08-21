@@ -1,4 +1,4 @@
-package StratergyPattern
+package BehavioralPattern.StratergyPattern
 
 class QuickSort : Sorting {
     override fun execute() {

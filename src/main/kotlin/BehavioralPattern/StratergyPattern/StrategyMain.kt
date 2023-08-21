@@ -1,4 +1,4 @@
-package StratergyPattern
+package BehavioralPattern.StratergyPattern
 
 fun main(){
 

@@ -1,4 +1,4 @@
-package StratergyPattern
+package BehavioralPattern.StratergyPattern
 
 class BubbleSort : Sorting {
     override fun execute() {

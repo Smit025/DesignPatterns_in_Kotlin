@@ -1,4 +1,4 @@
-package StratergyPattern
+package BehavioralPattern.StratergyPattern
 
 class SortingStrategy {
     private var sorting: Sorting? = null
