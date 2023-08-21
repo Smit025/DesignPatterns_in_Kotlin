@@ -1,7 +1,5 @@
 package BehavioralPattern.ChainOfResponsibility
 
-import kotlin.math.exp
-
 interface HelpHandler {
     fun handleHelp(subject: String)
     fun setNextHandler(handler: HelpHandler)
