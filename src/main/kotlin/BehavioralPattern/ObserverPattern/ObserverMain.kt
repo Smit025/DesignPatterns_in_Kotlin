@@ -1,6 +1,6 @@
 package BehavioralPattern.ObserverPattern
 
-fun main(){
+fun main() {
     val user1 = User("Smit")
     val user2 = User("Andrew")
     val user3 = User("Elon")
@@ -11,7 +11,4 @@ fun main(){
         subscribe(user3)
         uploadVideo("New Interview")
     }
-
-
-
 }
