@@ -6,6 +6,5 @@ fun main(){
     MediaPlayer().apply {
         play()
         pause()
-
     }
 }
