@@ -11,7 +11,7 @@ class LivingRoom : Decorate {
 
 }
 
-class DecoratorExample(val livingRoom: LivingRoom) : Decorate {
+class DecoratorExample(private val livingRoom: LivingRoom) : Decorate {
     override fun decorateForParty(): String {
         return livingRoom.decorateForParty() + " Balloon's added"
     }
